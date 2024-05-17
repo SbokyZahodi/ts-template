@@ -1,8 +1,8 @@
 {
-  "name": "package-placeholder",
+  "name": "packaga-placeholder",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@8.14.0",
+  "packageManager": "bun@1.1.8",
   "description": "description",
   "author": "Denis Dmitriev <https://github.com/SbokyZahodi>",
   "license": "MIT",
@@ -58,7 +58,7 @@
     "vitest": "^1.1.3"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged"
+    "pre-commit": "bun lint-staged"
   },
   "lint-staged": {
     "*": "eslint --fix"
